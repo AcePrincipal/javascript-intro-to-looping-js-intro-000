@@ -11,8 +11,8 @@ function forLoop(arr){
 }
 function whileLoop(num) {
   while(num >= 0) {
-    console.log(--num);
-    //num--;
+    console.log(num);
+    num--;
   }
   return 'done';
 }
